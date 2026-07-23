@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,ciallo.party
   - DOMAIN-SUFFIX,eb.zzm.li
   - DOMAIN-SUFFIX,cu2-emby.steiffs
+  - DOMAIN-SUFFIX,cn2gias.uk
   - DOMAIN-SUFFIX,kingemby.xyz
   - DOMAIN-SUFFIX,vincent253.us.ci
   - DOMAIN-SUFFIX,cinetrail.live
@@ -109,4 +110,5 @@ payload:
   - DOMAIN-SUFFIX,stream.synn.cc
   - DOMAIN-SUFFIX,emby1.69yun69.com
   - DOMAIN-SUFFIX,singularity.deja-vu.beauty
+  - DOMAIN-SUFFIX,server2.cn2gias.uk
   - DOMAIN-KEYWORD,emby

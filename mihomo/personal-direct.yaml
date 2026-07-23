@@ -3,8 +3,8 @@
 # REPO: https://github.com/justdoiting/emby-rules
 # UPDATED: 2025-06-06 09:18:50
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 19
-# TOTAL: 22
+# DOMAIN-SUFFIX: 17
+# TOTAL: 20
 payload:
   # OneSmartPro Emby 直连规则
   - DOMAIN-SUFFIX,media.emby.pro
@@ -15,8 +15,6 @@ payload:
   - DOMAIN-SUFFIX,lris625.top
   - DOMAIN-SUFFIX,yusen.cc.cd
   - DOMAIN-SUFFIX,entertang.work
-  - DOMAIN-SUFFIX,cn2gias.uk
-  - DOMAIN-SUFFIX,server2.cn2gias.uk
 
   # OneSmartPro 基础直连规则
   - DOMAIN-KEYWORD,taotu.ink
