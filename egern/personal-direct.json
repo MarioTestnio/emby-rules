@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "media.emby.pro"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "sfcj.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emos.club"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "taotu.ink"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "atrct.cn"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "lris625.top"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "yusen.cc.cd"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "entertang.work"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "taotu.ink"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "vidhub"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "onedrive"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "linuxdo.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "api.xmancdn.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "1drv.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "onedrive.live.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "onedrive.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "sharepoint.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "storage.live.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "microsoft.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "live.com"
+      ]
+    }
+  ]
+}

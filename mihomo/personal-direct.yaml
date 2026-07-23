@@ -1,26 +1,21 @@
-# NAME: Personal Direct
-# AUTHOR: justdoiting
-# REPO: https://github.com/justdoiting/emby-rules
-# UPDATED: 2025-06-06 09:18:50
-# SOURCE: converted from DOMAIN-SUFFIX/DOMAIN-KEYWORD to mihomo-party rule-provider payload format
 payload:
-  - +.media.emby.pro
-  - +.sfcj.org
-  - +.emos.club
-  - +.taotu.ink
-  - +.atrct.cn
-  - +.lris625.top
-  - +.yusen.cc.cd
-  - +.entertang.work
-  - taotu.ink
-  - vidhub
-  - onedrive
-  - +.linuxdo.org
-  - +.api.xmancdn.net
-  - +.1drv.com
-  - +.onedrive.live.com
-  - +.onedrive.com
-  - +.sharepoint.com
-  - +.storage.live.com
-  - +.microsoft.com
-  - +.live.com
+- media.emby.pro
+- sfcj.org
+- emos.club
+- taotu.ink
+- atrct.cn
+- lris625.top
+- yusen.cc.cd
+- entertang.work
+- taotu.ink
+- vidhub
+- onedrive
+- linuxdo.org
+- api.xmancdn.net
+- 1drv.com
+- onedrive.live.com
+- onedrive.com
+- sharepoint.com
+- storage.live.com
+- microsoft.com
+- live.com

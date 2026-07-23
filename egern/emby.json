@@ -1,0 +1,520 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "vds.qzz.io"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "nay.007.us.kg"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "yuanshen.help"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ciallo.party"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "eb.zzm.li"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cu2-emby.steiffs"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cn2gias.uk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "kingemby.xyz"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "vincent253.us.ci"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cinetrail.live"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "chilledmelon.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "nijigem.by"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "steiffs.uk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "lustfulboy.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "test.inemby.us.ci"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ct.yingji.lol"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "feiyue.lol"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "111848.xyz"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "hgemby.qzz"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "okemby.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "bangumi.ca"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "lunarisvault.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "plex.llon.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.nexitally.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.cjpc.cc"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.flowercloud.yt"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.maying.club"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.mdss.cloud"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.ytoo.li"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "embyserver.ga"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.prprcloud.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.nyancat.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.plusmedia.site"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby-cf.plusmedia.site"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.otakudrive.life"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby2.otakudrive.life"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "agahk1.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "agasg1.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "agajp1.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "aws.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ntt1.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "hinet.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cf1.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "pornemby.club"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.immtel.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cf.odysseyplus.site"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "agahk.odysseyplus.site"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "agasg.odysseyplus.site"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ru.odysseyplus.site"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "line.emby.men"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.run"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby-sg.plusmedia.site"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.xeton.dev"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "jellyfin.xeton.dev"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "movie.xeton.dev"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "servers.xeton.dev"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cf.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "hk.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "sg.jmsooo.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.wtf"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "pub1back.emby.wtf"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "pub2back.emby.wtf"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "pub3back.emby.wtf"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "pub1.emby.wtf"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "pub2.emby.wtf"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "pub3.emby.wtf"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "embyclub.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "az-hk.embyclub.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "azsgp.embyclub.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "play.charontv.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.p-p.men"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.aiyowei.ml"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cc.ccemby.tk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "mius.uk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "pololine.ml"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "embyplus.club"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "404.sb"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "4545.cf"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "blueseacdn.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby.ml"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "loseremby.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "plex.direct"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "texon.fans"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ju.dog"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "123456.al"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "hongxingyunmovie.vip"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "nvidia.rip"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "gfwemby.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "misakaf.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "poloemby.xyz"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "nebula-emby.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "feverss.cloud"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "stream.ntrrr.top"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "media-1.co.uk"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "sptv.ii00.cc"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "sgtv.ii00.cc"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cn-music.mefun.vip"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "stream.synn.cc"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "emby1.69yun69.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "singularity.deja-vu.beauty"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "server2.cn2gias.uk"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "emby"
+      ]
+    }
+  ]
+}
