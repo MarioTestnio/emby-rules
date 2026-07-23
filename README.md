@@ -2,68 +2,85 @@
 
 基于 [justdoiting/emby-rules](https://github.com/justdoiting/emby-rules) 与 [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat) 整理，适配 Clash / Mihomo / Surge / Egern。
 
-## 文件说明
+## 文件结构
 
-| 文件 | 适用工具 | 格式 |
-|------|---------|------|
-| `clash/emby.yaml` | Clash Party / Mihomo / Clash for Windows | YAML |
-| `surge/emby.list` | Egern / Surge / Shadowrocket | Surge List |
-| `egern/emby.yaml` | Egern | Egern YAML |
-
-## 远端引用
-
-把 `<你的用户名>` 替换为你的 GitHub 用户名，仓库名统一为 `emby-rules`。
-
-### jsDelivr（推荐）
-
-```yaml
-# Clash / Mihomo
-rule-providers:
-  emby:
-    type: http
-    url: "https://cdn.jsdelivr.net/gh/<你的用户名>/emby-rules@main/clash/emby.yaml"
-    interval: 86400
-    path: ./rules/emby.yaml
+```
+emby-rules/
+├── clash/
+│   ├── personal-direct.yaml   # Clash 格式：直连规则集
+│   └── emby.yaml              # Clash 格式：Emby 代理规则集
+├── mihomo/
+│   ├── personal-direct.yaml   # Mihomo 格式：直连规则集
+│   └── emby.yaml              # Mihomo 格式：Emby 代理规则集
+├── surge/
+│   ├── personal-direct.list   # Surge 格式：直连规则集
+│   └── emby.list              # Surge 格式：Emby 代理规则集
+├── egern/
+│   ├── personal-direct.yaml   # Egern 格式：直连规则集
+│   └── emby.yaml              # Egern 格式：Emby 代理规则集
+└── README.md
 ```
 
+## 规则组成
+
+### PersonalDirect（直连规则集）
+- OneSmartPro Emby 直连规则：`media.emby.pro`、`sfcj.org`、`emos.club` 等 8 条
+- OneSmartPro 基础直连规则：`taotu.ink`、`vidhub`、`onedrive`、`microsoft.com` 等 12 条
+
+### Emby（代理规则集）
+- OneSmartPro Emby 策略组规则（非直连部分）
+- MetaCubeX/meta-rules-dat `category-emby` 新增规则
+
+## 使用方式
+
+### Mihomo / Clash Party
+
 ```yaml
-# Egern / Surge
+rule-providers:
+  PersonalDirect:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MarioTestnio/emby-rules@main/mihomo/personal-direct.yaml
+    interval: 86400
+    path: ./ruleset/personal-direct.yaml
+
+  Emby:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MarioTestnio/emby-rules@main/mihomo/emby.yaml
+    interval: 86400
+    path: ./ruleset/emby.yaml
+
+rules:
+  - RULE-SET,PersonalDirect,国内直连
+  - RULE-SET,Emby,Emby
+```
+
+### Surge / Egern
+
+```yaml
 [Rule]
-RULE-SET,https://cdn.jsdelivr.net/gh/<你的用户名>/emby-rules@main/surge/emby.list,Emby
+RULE-SET,https://cdn.jsdelivr.net/gh/MarioTestnio/emby-rules@main/surge/personal-direct.list,国内直连
+RULE-SET,https://cdn.jsdelivr.net/gh/MarioTestnio/emby-rules@main/surge/emby.list,Emby
 ```
 
+或使用 Egern YAML 格式：
+
 ```yaml
-# Egern YAML
 rule-providers:
-  emby:
+  PersonalDirect:
     type: http
-    url: "https://cdn.jsdelivr.net/gh/<你的用户名>/emby-rules@main/egern/emby.yaml"
+    url: https://cdn.jsdelivr.net/gh/MarioTestnio/emby-rules@main/egern/personal-direct.yaml
     interval: 86400
+
+  Emby:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/MarioTestnio/emby-rules@main/egern/emby.yaml
+    interval: 86400
+
+[Rule]
+RULE-SET,PersonalDirect,国内直连
+RULE-SET,Emby,Emby
 ```
 
-### GitHub Raw
+## 更新日志
 
-```yaml
-# Clash / Mihomo
-url: "https://raw.githubusercontent.com/<你的用户名>/emby-rules/main/clash/emby.yaml"
-```
-
-```yaml
-# Egern / Surge
-RULE-SET,https://raw.githubusercontent.com/<你的用户名>/emby-rules/main/surge/emby.list,Emby
-```
-
-## 本地更新
-
-```bash
-cd emby-rules
-git add .
-git commit -m "update: 更新 Emby 规则"
-git push
-```
-
-## 规则来源
-
-- justdoiting/emby-rules
-- MetaCubeX/meta-rules-dat (category-emby)
-- OneSmartPro 本地规则集
+- 2025-07-23：初始版本，拆分直连/代理规则集，托管到 GitHub + jsDelivr

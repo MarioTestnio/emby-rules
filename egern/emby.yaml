@@ -8,16 +8,7 @@
 # PROCESS-NAME: 0
 # TOTAL: 84
 payload:
-  # OneSmartPro 本地规则集
   - DOMAIN-SUFFIX,vds.qzz.io
-  - DOMAIN-SUFFIX,media.emby.pro
-  - DOMAIN-SUFFIX,sfcj.org
-  - DOMAIN-SUFFIX,emos.club
-  - DOMAIN-SUFFIX,taotu.ink
-  - DOMAIN-SUFFIX,atrct.cn
-  - DOMAIN-SUFFIX,lris625.top
-  - DOMAIN-SUFFIX,yusen.cc.cd
-  - DOMAIN-SUFFIX,entertang.work
   - DOMAIN-SUFFIX,nay.007.us.kg
   - DOMAIN-SUFFIX,yuanshen.help
   - DOMAIN-SUFFIX,ciallo.party
@@ -39,8 +30,6 @@ payload:
   - DOMAIN-SUFFIX,okemby.org
   - DOMAIN-SUFFIX,bangumi.ca
   - DOMAIN-SUFFIX,lunarisvault.com
-
-  # MetaCubeX/meta-rules-dat category-emby 新增
   - DOMAIN-SUFFIX,plex.llon.net
   - DOMAIN-SUFFIX,emby.nexitally.com
   - DOMAIN-SUFFIX,emby.cjpc.cc
