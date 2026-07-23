@@ -18,5 +18,8 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install dependencies
+        run: python -m pip install pyyaml
+
       - name: Validate rules
         run: python .github/scripts/validate_rules.py
