@@ -2,30 +2,25 @@
 # AUTHOR: justdoiting
 # REPO: https://github.com/justdoiting/emby-rules
 # UPDATED: 2025-06-06 09:18:50
-# DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 17
-# TOTAL: 20
+# SOURCE: converted from DOMAIN-SUFFIX/DOMAIN-KEYWORD to mihomo-party rule-provider payload format
 payload:
-  # OneSmartPro Emby 直连规则
-  - DOMAIN-SUFFIX,media.emby.pro
-  - DOMAIN-SUFFIX,sfcj.org
-  - DOMAIN-SUFFIX,emos.club
-  - DOMAIN-SUFFIX,taotu.ink
-  - DOMAIN-SUFFIX,atrct.cn
-  - DOMAIN-SUFFIX,lris625.top
-  - DOMAIN-SUFFIX,yusen.cc.cd
-  - DOMAIN-SUFFIX,entertang.work
-
-  # OneSmartPro 基础直连规则
-  - DOMAIN-KEYWORD,taotu.ink
-  - DOMAIN-KEYWORD,vidhub
-  - DOMAIN-KEYWORD,onedrive
-  - DOMAIN-SUFFIX,linuxdo.org
-  - DOMAIN-SUFFIX,api.xmancdn.net
-  - DOMAIN-SUFFIX,1drv.com
-  - DOMAIN-SUFFIX,onedrive.live.com
-  - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,storage.live.com
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,live.com
+  - +.media.emby.pro
+  - +.sfcj.org
+  - +.emos.club
+  - +.taotu.ink
+  - +.atrct.cn
+  - +.lris625.top
+  - +.yusen.cc.cd
+  - +.entertang.work
+  - taotu.ink
+  - vidhub
+  - onedrive
+  - +.linuxdo.org
+  - +.api.xmancdn.net
+  - +.1drv.com
+  - +.onedrive.live.com
+  - +.onedrive.com
+  - +.sharepoint.com
+  - +.storage.live.com
+  - +.microsoft.com
+  - +.live.com
