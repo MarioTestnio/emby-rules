@@ -6,6 +6,7 @@
 # DOMAIN-SUFFIX: 17
 # TOTAL: 20
 payload:
+  # OneSmartPro Emby 直连规则
   - DOMAIN-SUFFIX,media.emby.pro
   - DOMAIN-SUFFIX,sfcj.org
   - DOMAIN-SUFFIX,emos.club
@@ -14,6 +15,8 @@ payload:
   - DOMAIN-SUFFIX,lris625.top
   - DOMAIN-SUFFIX,yusen.cc.cd
   - DOMAIN-SUFFIX,entertang.work
+
+  # OneSmartPro 基础直连规则
   - DOMAIN-KEYWORD,taotu.ink
   - DOMAIN-KEYWORD,vidhub
   - DOMAIN-KEYWORD,onedrive

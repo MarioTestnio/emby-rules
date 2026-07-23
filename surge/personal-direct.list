@@ -1,10 +1,3 @@
-# NAME: Emby
-# AUTHOR: justdoiting
-# REPO: https://github.com/justdoiting/emby-rules
-# UPDATED: 2025-06-06 09:18:50
-# DOMAIN-SUFFIX: 83
-# DOMAIN-KEYWORD: 1
-# TOTAL: 84
 DOMAIN-SUFFIX,media.emby.pro
 DOMAIN-SUFFIX,sfcj.org
 DOMAIN-SUFFIX,emos.club
@@ -13,3 +6,15 @@ DOMAIN-SUFFIX,atrct.cn
 DOMAIN-SUFFIX,lris625.top
 DOMAIN-SUFFIX,yusen.cc.cd
 DOMAIN-SUFFIX,entertang.work
+DOMAIN-KEYWORD,taotu.ink
+DOMAIN-KEYWORD,vidhub
+DOMAIN-KEYWORD,onedrive
+DOMAIN-SUFFIX,linuxdo.org
+DOMAIN-SUFFIX,api.xmancdn.net
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,live.com
