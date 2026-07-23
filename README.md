@@ -1,6 +1,6 @@
 # Emby 分流规则
 
-基于 [justdoiting/emby-rules](https://github.com/justdoiting/emby-rules) 整理，适配 Clash / Mihomo / Surge / Egern。
+基于 [justdoiting/emby-rules](https://github.com/justdoiting/emby-rules) 与 [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat) 整理，适配 Clash / Mihomo / Surge / Egern。
 
 ## 文件说明
 
@@ -8,6 +8,7 @@
 |------|---------|------|
 | `clash/emby.yaml` | Clash Party / Mihomo / Clash for Windows | YAML |
 | `surge/emby.list` | Egern / Surge / Shadowrocket | Surge List |
+| `egern/emby.yaml` | Egern | Egern YAML |
 
 ## 远端引用
 
@@ -29,6 +30,15 @@ rule-providers:
 # Egern / Surge
 [Rule]
 RULE-SET,https://cdn.jsdelivr.net/gh/<你的用户名>/emby-rules@main/surge/emby.list,Emby
+```
+
+```yaml
+# Egern YAML
+rule-providers:
+  emby:
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/<你的用户名>/emby-rules@main/egern/emby.yaml"
+    interval: 86400
 ```
 
 ### GitHub Raw
@@ -55,4 +65,5 @@ git push
 ## 规则来源
 
 - justdoiting/emby-rules
-- blackmatrix7/ios_rule_script (参考)
+- MetaCubeX/meta-rules-dat (category-emby)
+- OneSmartPro 本地规则集
