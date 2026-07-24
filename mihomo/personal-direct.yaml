@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,lris625.top
   - DOMAIN-SUFFIX,yusen.cc.cd
   - DOMAIN-SUFFIX,entertang.work
+  - DOMAIN,cf.697758.xyz
 
   # OneSmartPro 基础直连规则
   - DOMAIN-KEYWORD,taotu.ink

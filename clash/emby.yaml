@@ -1,4 +1,6 @@
 payload:
+  - DOMAIN,v.chilledmelon.com
+  - DOMAIN,rn.chilledmelon.com
   - DOMAIN-SUFFIX,vds.qzz.io
   - DOMAIN-SUFFIX,nay.007.us.kg
   - DOMAIN-SUFFIX,yuanshen.help
