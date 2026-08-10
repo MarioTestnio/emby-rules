@@ -111,4 +111,6 @@ payload:
   - DOMAIN-SUFFIX,emoss.eeew.eu.org
   - DOMAIN-SUFFIX,yh.4348663.xyz
   - DOMAIN-SUFFIX,yh.43998362.xyz
+  - DOMAIN-SUFFIX,emby.43998362.xyz
+  - DOMAIN-SUFFIX,emby.4348663.xyz
   - DOMAIN-KEYWORD,emby
